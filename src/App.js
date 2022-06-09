@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App () {
+//     const [name, setName] = useState('Nwachukwu')
 
-export default App;
+//     return (
+//         <div className="App">
+//             <h1>{ name }</h1>
+//             <button onClick={() => setName('Amaka')}>Change Name</button>
+//         </div>
+//     )
+// }
+
+// export default App
+
+
+
+// import { useState } from 'react'
+
+// function App () {
+//     const [name, setName] =useState('Nwachukwu')
+
+//     return (
+//         <div className="App">
+//             <h1>{ name }</h1>
+//             <input placeholder='Enter Anything' onChange={(evt) => setName(evt.target.value)} />
+//         </div>
+//     )
+// }
+
+// export default App
+
+
+// check the above javascript equivalent in js-equiv-amazing-apes-rjs
+
+
+
+// function App () {
+//     return (
+//         <div className="App1">
+//         <h1>Am learning React</h1>
+//         <p>kkkkkkkkkkkkkkkkkkkk</p>
+//         <button> Click Me</button>
+//         </div>
+//     )
+// }
+
+
+// export default App
+// to make index.js to see it
+// App is the name of the function
